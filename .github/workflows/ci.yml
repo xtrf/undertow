@@ -85,7 +85,7 @@ jobs:
        hostname || true
     - uses: actions/checkout@v2
     - name: Download Maven Repo
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: maven-repo
         path: .
@@ -138,7 +138,7 @@ jobs:
        hostname || true
     - uses: actions/checkout@v2
     - name: Download Maven Repo
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: maven-repo
         path: .
